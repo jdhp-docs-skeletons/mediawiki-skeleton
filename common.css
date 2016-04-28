@@ -1,0 +1,52 @@
+/*****************************************************************************
+ *                                                                           *
+ * The following text should be placed in                                    *
+ *    http://DOMAIN/WIKINAME/index.php/MediaWiki:Common.css                  *
+ * or http://DOMAIN/WIKINAME/mediaWiki:Common.css if urlrewrite is enabled   *
+ *                                                                           *
+ * CSS placed here will be applied to all skins                              *
+ *                                                                           *
+ *****************************************************************************/
+
+/* H2 titles *****************************************************************/
+
+div#mw-content-text h2 {
+    margin-top: 1em;
+}
+
+/* "Brouillon" Template ******************************************************/
+
+div.brouillon {
+    font-weight: bolder;
+    font-size: large;
+    margin: 1em;
+    text-align: center;
+}
+
+/* "Vignette" Template *******************************************************/
+
+span.vignette div.tleft {
+    display: inline;
+    float: left;
+    clear: none;
+}
+
+div.vignette_titre {
+    clear: both;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+div.vignette_auteur {
+    font-size: smaller;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+div.vignette_desc {
+    height: 5em;
+    margin-top: 0.5em;
+    text-align: justify;
+}
